@@ -10,7 +10,7 @@ double myNumber2 = double.MaxValue;
 //zmienne tekstowe
 string name = "Marcin";
 string surename = "Grochowski";
-string osoba = name + " "+ surename;
+string osoba = name + " " + surename;
 Console.WriteLine(osoba);
 char myChar = 'd';
 var result2 = name.ToArray();
@@ -28,7 +28,9 @@ var number2 = 10;
 if (name == "adam" && myAge < 50)
 {
     Console.WriteLine("Tak, to jest Adam");
+    isActive = true;
 }
-else {
-    Console.WriteLine("To jest "+ name );
+else
+{
+    Console.WriteLine("To jest " + name);
 }
