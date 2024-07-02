@@ -12,3 +12,8 @@ string name = "Marcin";
 string surename = "Grochowski";
 string osoba = name + " "+ surename;
 Console.WriteLine(osoba);
+char myChar = 'd';
+var result2 = name.ToArray();
+
+//zmienne logiczne
+bool isActive = true;
