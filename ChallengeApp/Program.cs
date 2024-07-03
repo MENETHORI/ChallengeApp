@@ -1,36 +1,12 @@
-﻿// liczby całkowite
-int myAge = 33;
-int newAge = myAge + 1;
-uint newUint = uint.MaxValue;
+﻿string imie = "Marcin";
+string plec = "mezczyzna";
+int wiek = 44;
 
-//liczby zmiennoprzecinkowe
-float myNumber = float.MaxValue;
-double myNumber2 = double.MaxValue;
-
-//zmienne tekstowe
-string name = "Marcin";
-string surename = "Grochowski";
-string osoba = name + " " + surename;
-Console.WriteLine(osoba);
-char myChar = 'd';
-var result2 = name.ToArray();
-
-//zmienne logiczne
-bool isActive = true;
-
-var number1 = 11;
-var number2 = 10;
-
-// && - i
-// || - lub
-// ! - nie
-
-if (name == "adam" && myAge < 50)
+if (plec == "kobieta" && wiek < 30)
 {
-    Console.WriteLine("Tak, to jest Adam");
-    isActive = true;
+    Console.WriteLine("Kobieta poniżej 30 lat");
 }
-else
+else if (imie == "Ewa" && wiek < 30)
 {
-    Console.WriteLine("To jest " + name);
+    Console.WriteLine("Ewa, lat 30");
 }
