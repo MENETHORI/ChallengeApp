@@ -1,6 +1,7 @@
 ﻿string imie = "Marcin";
 string plec = "mezczyzna";
-int wiek = 44;
+// char = "m";
+int wiek = 17;
 
 if (plec == "kobieta" && wiek < 30)
 {
@@ -9,4 +10,12 @@ if (plec == "kobieta" && wiek < 30)
 else if (imie == "Ewa" && wiek < 30)
 {
     Console.WriteLine("Ewa, lat 30");
+}
+else if (plec == "mezczyzna" && wiek < 18)
+{
+    Console.WriteLine("Niepełnoletni mężczyzna");
+}
+else
+{
+    return;
 }
