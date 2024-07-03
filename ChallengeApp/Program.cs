@@ -1,7 +1,7 @@
-﻿string imie = "Marcin";
-string plec = "mezczyzna";
+﻿string name = "Marcin";
+string  sex = "mezczyzna";
 // char = "m";
-int wiek = 17;
+int age = 17;
 
 if (plec == "kobieta" && wiek < 30)
 {
