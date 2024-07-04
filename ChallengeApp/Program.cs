@@ -1,9 +1,9 @@
-﻿string name = "Marcin";
-string  sex = "mezczyzna";
+﻿string name = "Ewa";
+string  sex = "kobieta";
 // char = "m";
-int age = 17;
+int age = 28;
 
-if (sex == "kobieta" && age < 30)
+if (name == "kobieta" && age < 30)
 {
     Console.WriteLine("Kobieta poniżej 30 lat");
 }
