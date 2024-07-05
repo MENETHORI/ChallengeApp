@@ -1,18 +1,17 @@
-﻿List<string> deysOfWeek = new List<string>();
-deysOfWeek.Add("poniedziałek");
-deysOfWeek.Add("wtorek");
-deysOfWeek.Add("środa");
-deysOfWeek.Add("czwartek");
-deysOfWeek.Add("piątek");
-deysOfWeek.Add("sobota");
-deysOfWeek.Add("niedziela");
-deysOfWeek.Add("wolne");
+﻿int number = 77777;
+string numberInString = number.ToString();
+char[] lettesr = numberInString.ToArray();
+int[] digits = new int[10];
 
-//for (int i = 0; i<deysOfWeek.Count; i++)
-//{
-//    Console.WriteLine(deysOfWeek[i]);
-//}
-foreach (var day in deysOfWeek)
+for (int i=0; i < lettesr.Length; i++)
 {
-    Console.WriteLine(day);
+ //   Console.WriteLine(lettesr[i]);
+    int digit = lettesr[i] - '0';
+ //   Console.WriteLine(digit);
+    digits[digit] +=1;
+}
+
+for (int x=0; x<digits.Length; x++)
+{
+    Console.WriteLine(x+" => "+digits[x]);
 }
