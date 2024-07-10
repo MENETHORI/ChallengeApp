@@ -4,25 +4,12 @@ Employee first = new Employee("Nowak", 23);
 Employee second = new Employee("Kowalski", 24);
 Employee third = new Employee("Sienkiewicz", 25);
 
-first.AddScore(1);
-second.AddScore(2);
-third.AddScore(3);
-
-first.AddScore(1);
-second.AddScore(1);
-third.AddScore(3);
-
-first.AddScore(1);
-second.AddScore(1);
-third.AddScore(3);
-
-first.AddScore(10);
-second.AddScore(10);
-third.AddScore(10);
-
-first.AddScore(5);
-second.AddScore(6);
-third.AddScore(7);
+for (int i = 0; i < 5; i++)
+{
+    first.AddScore(1);
+    second.AddScore(2);
+    third.AddScore(3);
+}
 
 int resultFirst = first.GetScore();
 int resultSecond = second.GetScore();
