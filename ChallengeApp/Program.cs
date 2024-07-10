@@ -16,6 +16,14 @@ first.AddScore(1);
 second.AddScore(1);
 third.AddScore(3);
 
+first.AddScore(10);
+second.AddScore(10);
+third.AddScore(10);
+
+first.AddScore(5);
+second.AddScore(6);
+third.AddScore(7);
+
 int resultFirst = first.GetScore();
 int resultSecond = second.GetScore();
 int resultThird = third.GetScore();
