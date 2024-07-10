@@ -6,9 +6,9 @@ Employee third = new Employee("Sienkiewicz", 25);
 
 for (int i = 0; i < 5; i++)
 {
-    first.AddScore(1);
-    second.AddScore(2);
-    third.AddScore(3);
+    first.AddScore(4+i);
+    second.AddScore(2+i);
+    third.AddScore(3+i);
 }
 
 int resultFirst = first.GetScore();
